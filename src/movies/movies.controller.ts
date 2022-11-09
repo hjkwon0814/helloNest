@@ -33,6 +33,7 @@ export class MoviesController {
         return {
             updateMovie : movieId,
             ...updateData,
+            
         }
     }
 
